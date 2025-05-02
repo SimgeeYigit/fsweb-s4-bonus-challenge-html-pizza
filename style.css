@@ -1,97 +1,70 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+body, p, h1 {
   margin: 0;
+  padding: 0;
+}
+
+.header {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  background-image: url("./public/assets/iteration-1/home-banner.png");
+  background-size: cover; 
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
+/* Logo */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+  padding: 3.5rem 0;
 }
 
-.card {
-  padding: 2em;
+/* Fırsatı kaçırma metni */
+.firsat-text {
+  font-family: Satisfy;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #FDC913;
 }
 
-.read-the-docs {
-  color: #888;
+/* KOD ACIKTIRIR PIZZA, DOYURUR BAŞLIĞI */
+.pizza-text {
+  color:#FFFFFF;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-size: 5.375rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* ACIKTIM Butonu */
+.btn {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 1.125rem;
+  background-color: #FDC913;
+  border: none;
+  border-radius: 3.125rem;
+  padding: 1rem 3.75rem;
+  margin-top: 1.5rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* ACIKTIM Butonu */
+.btn a {
+  text-decoration: none;
+  color:#292929;
 }
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
