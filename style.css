@@ -64,7 +64,25 @@ body, p, h1 {
   align-items: center;
 }
 
+/* Menü */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
 
+.menu-items {
+  list-style: none;
+}
 
-
+.menu-items a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: Barlow;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #292929;
+  gap: 1rem;
+}
 
